@@ -1,5 +1,7 @@
+/*Ввести с консоли число в бинарном формате. Перевести его в десятичный формат, записать в переменную int и вывести на экран.
+        Необходимо использовать циклы, нельзя использования готовые методы языка Java, для перевода числа из одной системы счисления в другую.*/
 import java.util.Scanner;
-public class task4 {
+public class fin1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число: ");
@@ -14,10 +16,10 @@ public class task4 {
                 if (d == '1'){
                     int s = 1;
                     //Получение степени двойки
-                for(int j=0;j<i;j++){
-                    s = s*2;
-                }
-                m += s;
+                    for(int j=0;j<i;j++){
+                        s = s*2;
+                    }
+                    m += s;
                 }
             } else {
                 System.out.println("Не является двоичным числом");
